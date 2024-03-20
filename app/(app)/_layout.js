@@ -38,6 +38,17 @@ export default function _layout() {
                         navigationBarColor: "#3340B0",
                     }}
                 />
+                <Stack.Screen
+                    name="selfhelp"
+                    options={{
+                        headerTitle: "Self Help Videos",
+                        headerStyle: {
+                            backgroundColor: "#3340B0",
+                        },
+                        headerTintColor: "white",
+                        navigationBarColor: "#3340B0",
+                    }}
+                />
             </Stack>
         </>
     );
